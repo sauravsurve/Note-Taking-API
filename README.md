@@ -1,12 +1,16 @@
 # Note-Taking-API
 The Note Taking API for a web application based on Django.
 
-Modules required to be installed:
+Modules required to be installed in your Python Virtual Environment:
 1. Django(version 3.0) - pip install django==3.0.0
 2. Django Rest Framework - pip install djangorestframework
 
+Steps to run the server:
+1. Navigate to project/
+2. Run the server with the following command: python manage.py runserver
+3. Open the web broswer and go to localhost:8000/article/
 
-The following API performs the following calls:
+The API performs the following calls:
 1. GET /article/view - Displays the id, Username, Note text, Created Date, Last Updated Date for all the notes in the application.
 2. GET /article/view/{id no} - Displays the id, Username, Note text, Created Date, Last Updated Date for the note with the given id.
 3. POST /article/view/ - Adds a new note.
