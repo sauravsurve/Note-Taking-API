@@ -5,6 +5,12 @@ Modules required to be installed in your Python Virtual Environment:
 1. Django(version 3.0) - pip install django==3.0.0
 2. Django Rest Framework - pip install djangorestframework
 
+To create superuser:
+1. Navigate to project/
+2. Run the command: python manage.py createsuperuser
+3. Provide username and password both as 'admin'
+
+
 Steps to run the server:
 1. Navigate to project/
 2. Run the server with the following command: python manage.py runserver
