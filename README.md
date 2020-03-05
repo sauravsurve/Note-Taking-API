@@ -8,13 +8,13 @@ Modules required to be installed in your Python Virtual Environment:
 To create superuser:
 1. Navigate to project/
 2. Run the command: python manage.py createsuperuser
-3. Provide username and password both as 'admin'
-
+3. Set username and password
 
 Steps to run the server:
 1. Navigate to project/
 2. Run the server with the following command: python manage.py runserver
 3. Open the web broswer and go to localhost:8000/article/
+4. The default username and password is 'admin'
 
 The API performs the following calls:
 1. GET /article/view - Displays the id, Username, Note text, Created Date, Last Updated Date for all the notes in the application.
